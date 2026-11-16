@@ -1,5 +1,5 @@
 name: "Meitheal Canary"
-version: "17ed1862a7c8"
+version: "67939264d90e"
 slug: "meitheal_canary"
 description: "0.0.2 Canary preview of Meitheal. Builds can be unstable and can lose data. Use the Stable app for everyday tasks."
 url: "https://meitheal.io"
