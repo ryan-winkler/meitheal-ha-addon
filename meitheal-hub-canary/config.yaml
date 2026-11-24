@@ -1,5 +1,5 @@
 name: "Meitheal Canary"
-version: "cf8c6dc3c3dd"
+version: "f9530dcd7862"
 slug: "meitheal_canary"
 description: "0.0.4 Canary preview of Meitheal. Builds can be unstable and can lose data. Use the Stable app for everyday tasks."
 url: "https://meitheal.io"
@@ -30,7 +30,6 @@ backup: cold
 backup_exclude:
   - "*.log"
   - "*.tmp"
-  - "meitheal-board-grants.json"
   - "meitheal-board-grants-pending"
 stage: experimental
 options:
