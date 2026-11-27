@@ -45,7 +45,9 @@ Or add the repository manually in under a minute:
 4. Choose **Meitheal** (or **Meitheal Canary** for preview builds) and select **Install**.
 5. Select **Start**, enable **Show in sidebar**, and click **Open web UI**.
 
-> **Install status:** Both **Meitheal** (`fec6e08e09f3`) and **Meitheal Canary** (`12b35a44606e`) currently pull verified pre-release multi-architecture (`amd64`, `aarch64`) images from `ghcr.io/coolock-village/meitheal-canary-{arch}` while the first SemVer Stable release is finalized. If you previously saw a `401` pull error on an older cached store manifest ([issue #1](https://github.com/ryan-winkler/meitheal-ha-addon/issues/1)), click **Check for updates / Reload** in the Home Assistant Store menu.
+> **Updates:** Open the installed Meitheal app in **Settings → Apps** and choose **Update** when offered. To refresh the catalog, open **Install app** and use **Check for updates** or **Reload** in the menu. The [Stable manifest](meitheal-hub/config.yaml) and [Canary manifest](meitheal-hub-canary/config.yaml) show the versions Supervisor can install.
+
+> The optional Meitheal Core integration has its own distribution path. Home Assistant **Settings → Marketplace** is for custom integrations and other community projects. [Home Assistant Marketplace](https://www.home-assistant.io/blog/2026/11/04/release-202611/#welcome-to-the-marketplace)
 
 ## Available Channels in This Repository
 
